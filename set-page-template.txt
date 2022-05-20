@@ -1,0 +1,5 @@
+how to set template in page
+
+
+go to page and find option edit. then find template, first it will be as default, set it as template(custom-template)
+and update.

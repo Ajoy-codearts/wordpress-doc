@@ -1,0 +1,3 @@
+this code has to be put in the carousel item
+
+<?php if (get_row_index() == 1 ) echo 'active'; ?>

@@ -1,0 +1,14 @@
+form-validation 
+form-setup
+
+
+
+for form setup we have to apply a plugin, form control 7,
+then a contact option will generate in the wordpress dashboard,
+there copy the form content and do changes from the contact  form options, and remove all whitespaces also,
+after saving, a short code will generate, use the code in html , in a php code.
+
+<?php echo do_shortcode('[contact-form-7 id="232" title="Contact form 1"]'); ?>
+
+
+*note: every form options have a specific id no. if input type bocomes same, then have to change id no.

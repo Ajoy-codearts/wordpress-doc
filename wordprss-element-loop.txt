@@ -1,0 +1,10 @@
+<?php while ( have_rows( 'Group_Name_id' ) ) : the_row(); ?>
+                                <?php while ( have_rows( 'Repeater_Name_id' ) ) : the_row(); ?>
+                            <div class="col-md-4">
+                                <div class="portion">
+                                    <img class="zoom_ani show-on-scroll" src="<?php the_sub_field('avator'); ?>" alt="">
+                                    <h3 class="top_ani show-on-scroll"><?php the_sub_field('title'); ?></h3>
+                                </div>
+                            </div>
+                        <?php endwhile; ?>
+                        <?php endwhile; ?>

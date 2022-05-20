@@ -1,0 +1,6 @@
+<?php the_field(' element id', get_the_ID()); ?>
+
+
+
+the element id is generated while creating dynamic elements in wordpress, custom-field
+the custom-field option apears when we install acf(advance custom -field)

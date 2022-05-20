@@ -1,0 +1,24 @@
+you have to create page component in template-parts and
+
+mention the names of components in the page as shown below
+
+
+
+<?php
+/*
+Template Name: History Template
+*/
+get_header();
+?>
+
+<?php
+    while ( have_posts() ) :
+    the_post();
+?>
+  
+  <?php echo require_once('template-parts/history-table.php') ?>
+  <?php echo require_once('template-parts/history-top-wraper.php') ?>
+
+
+<?php endwhile; ?>   
+<?php get_footer();?>

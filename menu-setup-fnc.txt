@@ -1,0 +1,27 @@
+in the header.php mention theme-location name same as mentioned in the register-nav-menus array header-menu option
+in the function.php file
+
+
+
+<?php
+                wp_nav_menu( array(
+                'theme_location' => 'header-menu',
+                'container'  => '',
+                'depth'      => 2,
+                'items_wrap' => '<ul class="navbar-nav wheader ml-auto">%3$s</ul>' ,
+                'menu_class' => '',
+                
+                ) );
+				      ?>
+
+
+
+
+
+register_nav_menus(
+			array(
+				'header-menu' => __( 'Primary', 'twentynineteen' ),
+				'footer' => __( 'Footer Menu', 'twentynineteen' ),
+				'social' => __( 'Social Links Menu', 'twentynineteen' ),
+			)
+		);

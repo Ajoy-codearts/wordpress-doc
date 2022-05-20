@@ -1,0 +1,1 @@
+<?php get_option_tree('header_top_msg','','true'); ?>

@@ -1,0 +1,10 @@
+in function.php 
+
+
+
+
+add_filter( 'ot_show_pages','__return_false' );
+add_filter( 'ot_show_new_layout','__return_false' );
+add_filter( 'ot_theme_mode','__return_true' );
+include_once( 'inc/Theme-control/ot-loader.php' );
+include_once( 'inc/Theme-control/assets/theme-mode/theme-options.php' );
